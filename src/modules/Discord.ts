@@ -97,7 +97,8 @@ export const listen = (): void => {
                             d: {
                                 token: discordToken,
                                 properties: { os: "android", browser: "dcm", device: "dcm" },
-                                intents: Number("37408")
+                                intents: 37411
+
                             }
                         })
                     );
